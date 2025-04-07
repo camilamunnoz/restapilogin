@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
 });
 
 //Conexion a base de datos
-mongoose.connect('mongodb+srv://cmunozjuan5:18xdPHfLyTU0fmuV@cluster0.unmsmkr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', { useNewUrlParser: true,
+mongoose.connect('mongodb+srv://macamugo01:vC4ZXa4wPlmgtlPL@cluster0.unmsmkr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', { useNewUrlParser: true,
 useUnifiedTopology: true
 }).then(() => {
     console.log('Conectado a la base de datos');
